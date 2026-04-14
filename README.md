@@ -123,6 +123,26 @@ Training and validation performance were monitored using:
 
 To improve performance, a pretrained **MobileNetV2** model was utilized.
 
+
+---
+
+# MobileNetV2 Architecture
+
+
+### MobileNetV2 Transfer Learning Architecture
+
+```mermaid
+flowchart TD
+    A[Input Image 128x128x3] --> B[Pretrained MobileNetV2 Base]
+    B --> C[Frozen Layers]
+
+    C --> D[Global Pooling]
+    D --> E[Dense Layer]
+    E --> F[Dropout]
+
+    F --> G[Output Layer 3 Classes]
+```
+
 ### Key Adjustments:
 
 * Input reshaped to **(128, 128, 3)** to match RGB requirements
