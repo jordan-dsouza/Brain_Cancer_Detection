@@ -20,7 +20,7 @@ The primary objective is to develop a robust convolutional neural network (CNN) 
 
 * All images are in **grayscale format** with an original resolution of **512×512**.
 * Images were resized to **128×128** to reduce computational complexity.
-* Pixel values were normalized to the range **[0, 1]**.
+* Pixel values were normalized to the range [0,1].
 * Labels were encoded as:
 
   * Glioma -> 0
