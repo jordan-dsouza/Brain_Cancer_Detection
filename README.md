@@ -36,6 +36,20 @@ A **stratified split** was used to preserve class distribution across training a
 
 ---
 
+## Data Pipeline Diagram
+
+```mermaid
+flowchart LR
+    A[Raw MRI Images] --> B[Resize 128x128]
+    B --> C[Normalization]
+    C --> D[Train Test Split]
+
+    D --> E[Model Training]
+    E --> F[Evaluation]
+
+    F --> G[Predictions]
+```
+
 ## Methodology
 
 ### Custom CNN Architecture
