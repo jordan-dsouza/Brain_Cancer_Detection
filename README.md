@@ -140,7 +140,7 @@ To improve performance, a pretrained **MobileNetV2** model was utilized.
 
 ---
 
-# MobileNetV2 Architecture
+## MobileNetV2 Architecture
 
 
 ### MobileNetV2 Transfer Learning Architecture
