@@ -8,9 +8,9 @@ This project focuses on the classification of brain MRI images into multiple can
 
 The dataset consists of three classes:
 
-* **Glioma**
-* **Meningioma**
-* **Tumor**
+- **Glioma**
+- **Meningioma**
+- **Tumor**
 
 The primary objective is to develop a robust convolutional neural network (CNN) model and benchmark its performance against a pretrained **MobileNetV2** architecture.
 
