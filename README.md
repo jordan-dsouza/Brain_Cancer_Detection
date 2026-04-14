@@ -72,6 +72,27 @@ A sequential convolutional neural network was designed with the following compon
 
 ---
 
+## Model Architecture
+
+```mermaid
+flowchart TD
+    A[Input Image 128x128x1] --> B[Conv2D 32 Filters]
+    B --> C[Batch Normalization]
+    C --> D[MaxPooling 2x2]
+
+    D --> E[Conv2D 64 Filters]
+    E --> F[Batch Normalization]
+    F --> G[MaxPooling 2x2]
+
+    G --> H[Dropout 0.3]
+    H --> I[Flatten]
+
+    I --> J[Dense Layer]
+    J --> K[Dropout 0.5]
+
+    K --> L[Output Layer 3 Classes]
+```
+
 ## Training Strategy
 
 * **Epochs:** 10
