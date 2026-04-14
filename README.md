@@ -6,7 +6,7 @@
 
 This project focuses on the classification of brain MRI images into multiple cancer categories using deep learning techniques. The dataset used is the **Orvile Brain Cancer MRI Dataset** sourced from Kaggle and directly integrated into the workflow using the Kaggle API in Google Colab.
 
-The dataset consists of three classes:
+The dataset consists of three classes:-
 
 - **Glioma**
 - **Meningioma**
